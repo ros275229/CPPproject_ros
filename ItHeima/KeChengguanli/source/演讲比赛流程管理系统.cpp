@@ -10,7 +10,12 @@ int main(){
     // 创建管理类对象
     SpeechManager sm ;
     while(true){
-        sm.show_Menu();
+        sm.show_Menu() ;
+        sm.initSpeech() ;
+        sm.createSpeaker() ;
+        for(int i = 0 ; i < 12 ; i++){
+            cout << "选手编号: " << 10001 + i << " 姓名: " << sm.m_Speaker[10001+i].name << "成绩： "<< sm.m_Speaker[10001+i].score[0] << " "<< sm.m_Speaker[10001+i].score[1] << endl ;
+        }
         int choice = 0 ; // 用户的选择
         cout << "请输入您的选择: " ;
         cin >> choice ;

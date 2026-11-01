@@ -1,8 +1,9 @@
 运行教程 : 
-g++ -std=c++17 -finput-charset=UTF-8 -fexec-charset=UTF-8 ^
+编译 : 
+g++ -std=c++11 -finput-charset=UTF-8 -fexec-charset=UTF-8 ^
     "d:\CPP\Code\ItHeima\KeChengguanli\source\演讲比赛流程管理系统.cpp" ^
     "d:\CPP\Code\ItHeima\KeChengguanli\source\speechManager.cpp" ^
     -I "d:\CPP\Code\ItHeima\KeChengguanli\header" ^
-    -o "d:\CPP\Code\ItHeima\KeChengguanli\source\演讲比赛流程管理系统.exe"
-
-    "d:\CPP\Code\ItHeima\KeChengguanli\source\演讲比赛流程管理系统.exe"
+    -o "d:\CPP\Code\ItHeima\KeChengguanli\source\演讲比赛流程管理系统.exe"    "d:\CPP\Code\ItHeima\KeChengguanli\source\演讲比赛流程管理系统.exe"
+运行 : 
+"d:\CPP\Code\ItHeima\KeChengguanli\source\演讲比赛流程管理系统.exe"    
